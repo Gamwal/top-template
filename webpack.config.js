@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.js",
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "src"),
     },
     hot: true,
     open: true,
